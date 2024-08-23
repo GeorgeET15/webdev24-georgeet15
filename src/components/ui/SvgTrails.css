@@ -1,0 +1,28 @@
+html {
+  touch-action: none;
+}
+svg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+svg line {
+  stroke-width: 20;
+  stroke-linecap: round;
+}
+
+#line-1 line {
+  stroke: cyan;
+}
+
+#line-2 line {
+  stroke: yellow;
+}
+
+#line-3 line {
+  stroke: orange;
+}
